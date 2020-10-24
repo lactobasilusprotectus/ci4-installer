@@ -20,9 +20,9 @@ class CommandInstaller extends Command
 
     public function execute(InputInterface $input, OutputInterface $output)
     {
-       $output->write('<info>Codeigniter 4</info>');
+       $output->writeln('<info>Codeigniter 4</info>');
 
-       sleep(2);
+       sleep(3);
 
        $output->writeln('<info>Creating Codeigniter 4 App Starter</info>');
 
