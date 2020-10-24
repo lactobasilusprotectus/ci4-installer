@@ -1,0 +1,34 @@
+{
+    "name": "lactobasilus/ci4-installer",
+    "description": "ci4 installer",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "lactobasilusprotectus",
+            "email": "amru1731218@sttpln.ac.id"
+        }
+    ],
+    "require": {
+        "php": "^7.3",
+        "symfony/console": "^5.0",
+        "symfony/process": "^5.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9.4"
+    },
+    "bin": [
+        "bin/ci4"
+    ],
+    "autoload": {
+        "psr-4": {
+            "Codeigniter\\Installer\\Console\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Codeigniter\\Installer\\Console\\": "tests/"
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
